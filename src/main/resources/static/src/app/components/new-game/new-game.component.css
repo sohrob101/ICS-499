@@ -1,0 +1,13 @@
+#mazeGridCanvas { 
+    border: 20px solid #161617;
+    background-color:rgb(143, 180, 248);
+}
+
+#mazeGridCanvas, #pointGridCanvas, #zoneGridCanvas, #pathGridCanvas { 
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}

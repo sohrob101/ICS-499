@@ -1,0 +1,19 @@
+
+
+table {
+  width: 100%;
+  font-family: arial, sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
