@@ -1,0 +1,11 @@
+<form id="accesspanel" action="login" method="post">
+    <h1>
+        <input type="text" name="username" [(ngModel)]="username" id="email" placeholder="enter username">
+    </h1>
+    <h1>
+        <input type="password" name="password" [(ngModel)]="password" id="password" placeholder="password">
+    </h1>
+    <p>
+        <input type="submit" name="Login" id="go" value="Login" (click)="loggingIn()">
+    </p>
+</form>
